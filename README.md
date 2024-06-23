@@ -15,25 +15,19 @@ The codebase is structured to handle various steps in the dataset preparation pr
 
 ### Data Formatting
 
-- `prompt_format.py`  
-  Formats user input into a GPT-compatible format.
+- `prompt_format.py`: Formats user input into a GPT-compatible format.
 
-- `alpaca_formatting.py`  
-  Formats data into a structure suitable for training purposes (Alpaca format).
+- `alpaca_formatting.py`: Formats data into a structure suitable for training purposes (Alpaca format).
 
-- `split_response.py`  
-  Splits prompts and responses for specific use cases depending on the stage of data generation.
+- `split_response.py`: Splits prompts and responses for specific use cases depending on the stage of data generation.
 
-- `trim_response.py`  
-  Trims and cleans the messages.
+- `trim_response.py`: Trims and cleans the messages.
 
-- `preference_format.py`  
-  Formats data into a format suitable for RLHF by marking chosen/rejected features suitable for RLHF tuning.
+- `preference_format.py`: Formats data into a format suitable for RLHF by marking chosen/rejected features suitable for RLHF tuning.
 
 ### API Interaction
 
-- `response_gpt.py`  
-  Handles API calls to generate prompts/responses using multithreading for efficiency.
+- `response_gpt.py`: Handles API calls to generate prompts/responses using multithreading for efficiency.
 
 ## Example Bash Scripts
 
