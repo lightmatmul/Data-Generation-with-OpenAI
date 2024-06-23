@@ -4,7 +4,7 @@ This repository contains a set of Python scripts and utilities designed to facil
 
 ## Overview
 
-The codebase is structured to handle various steps in the dataset preparation process, from formatting prompts to sending API calls and processing responses. The tools included are ideal for researchers and developers looking to automate the preparation of training data for Reinforcement Learning from Human Feedback (RLHF) and other machine learning tasks.
+The codebase is structured to handle various steps in the dataset preparation process, from formatting prompts to sending API calls and processing responses. The tools included are ideal for researchers and developers looking to automate the preparation of training data for LLM SFT and RLHF training.
 
 ## Directory Structure
 
