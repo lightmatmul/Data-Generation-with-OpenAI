@@ -39,7 +39,23 @@ Located in `/example_runs`, these scripts demonstrate practical applications of 
 
 ## Setup and Execution
 
-### Prerequisites
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/lightmatmul/Data-Generation-with-OpenAI.git
+   cd Data-Generation-with-OpenAI```
+
+2. **Create and activate a virtual environment:**
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate```
+
+3. **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt```
+
+### API key setup
 
 Ensure you have an OpenAI API key, which you will need to insert into `response_gpt.py`.
 
